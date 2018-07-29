@@ -1,0 +1,51 @@
+body {
+    margin:0;
+    padding:0;
+}
+div{
+    width:100%
+}
+.box{
+    height:15vh;
+    
+}
+
+.header{
+    padding:5px 0 5px 10px;
+    box-sizing: border-box;
+    background-color: darkgray;
+    height:14vh;
+    
+}
+.logo-box{
+    width:70px;
+    height:70px;
+    background-color: dodgerblue;
+}
+#articl{
+    padding:35px;
+    box-sizing:border-box;
+    height:26vh;
+    overflow: hidden;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blu-box{
+    background-color:dodgerblue;
+}
+.grn-box{
+    background-color: aqua;
+}
+.grbyel-box{
+    background-color: greenyellow;
+}
+.ylw-box{
+    background-color: yellow;
+}
+@media(max-width: 992px) {
+    .header {
+        background-color: black;
+        
+    }
+  }
